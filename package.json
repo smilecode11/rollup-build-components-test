@@ -1,7 +1,6 @@
 {
   "name": "@smiling_tests/lego-bricks",
-  "version": "1.0.6",
-  "private": false,
+  "version": "1.0.12",
   "main": "dist/lego-bricks.umd.js",
   "module": "dist/lego-bricks.esm.js",
   "types": "dist/index.d.ts",
