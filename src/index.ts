@@ -12,8 +12,9 @@ export {
 
 import LText from "./components/LText";
 import LImage from "./components/LImage";
+import FinalPage from './components/FinalPage'
 
-const components = [LText, LImage];
+const components = [LText, LImage, FinalPage];
 
 const install = (app: App) => {
   components.forEach((component) => {
@@ -21,7 +22,7 @@ const install = (app: App) => {
   });
 };
 
-export { LText, LImage, install };
+export { LText, LImage, FinalPage, install };
 
 export default {
   install,
